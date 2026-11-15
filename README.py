@@ -73,8 +73,8 @@ if USER_OPTION == 1:
             print("Account found. Please enter your PIN.")
             account_PIN = acc["Account_PIN"]
             break
-        if not account_found:
-            print("Account not found. Please check your account number and try again.")
+    if not account_found:
+        print("Account not found. Please check your account number and try again.")
     
     if account_found:
         user_inPin = int(input("Please enter your PIN: "))
